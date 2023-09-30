@@ -4,11 +4,10 @@ class script(object):
     HELP_TXT = """ʜᴇy {}
 ʙᴀꜱᴇ ᴜꜱᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ """
     ABOUT_TXT = """✯ ᴍy ɴᴀᴍᴇ: {}
-✯ ᴏɴᴡᴇʀ: <a href=https://t.me/basildmx>ʙᴀꜱɪʟ ᴅᴍx</a>
+✯ ᴏɴᴡᴇʀ: <a href=https://t.me/ame0451>ᴀᴍᴇ</a>
 ✯ ʟɪʙʀᴀʀy: ᴩyʀᴏɢʀᴀᴍ
 ✯ ʟᴀɴɢᴜᴀɢᴇ: ᴩyᴛʜᴏɴ 𝟹.10.08
 ✯ ᴅᴀᴛᴀ ʙᴀꜱᴇ: ᴍᴏɴɢᴏ ᴅʙ
-✯ ᴅᴀᴛᴀ ʙᴀꜱᴇ 2 : ʀᴇᴅɪꜱ ᴅʙ
 ✯ ꜱᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
 ✯ ꜱᴏᴜʀᴄᴇ : ᴇᴠᴀ ᴍᴀʀɪᴀ + ᴀᴅᴅᴇᴅ ᴄᴏᴅᴇ"""
     SOURCE_TXT = """<b>Sorry Source Code Of This Bot is Private Add This Bot in Your Group And Use Like Yours😊"""
@@ -17,7 +16,7 @@ class script(object):
 - Filter is the feature were users can set automated replies for a particular keyword and 𝘾𝙝𝙖𝙧𝙡𝙞𝙚 𝘾𝙝𝙖𝙥𝙡𝙞𝙣 will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. ᴛᴏᴍ ᴄʀᴜɪꜱᴇ ꜱʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴩʀɪᴠɪʟʟᴀɢᴇ.
+1. ʟᴇᴏ ᴅᴀꜱ ꜱʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴩʀɪᴠɪʟʟᴀɢᴇ.
 2. ᴏɴʟy ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴀᴅᴅ ꜰɪʟᴛᴇʀꜱ ᴛᴏ ʙᴏᴛ.
 3. alert buttons have a limit of 64 characters.
 
@@ -28,7 +27,7 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- ᴛᴏᴍ ᴄʀᴜɪꜱᴇ Supports both url and alert inline buttons.
+- ʟᴇᴏ ᴅᴀꜱ Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
@@ -36,7 +35,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/dmx_chating)</code>
+<code>[Button Text](buttonurl:https://t.me/cinema_kottaaram)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -63,7 +62,7 @@ class script(object):
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of ʟᴇᴏ ᴅᴀꜱ
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specified user.</code>
@@ -97,7 +96,7 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """#Tom_cruise_new_user
+    LOG_TEXT_P = """#leo_das_new_user
 ID - <code>{}</code>
 Name - {}
 """
