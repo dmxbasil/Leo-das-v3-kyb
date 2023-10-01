@@ -144,7 +144,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>📍 ᴄᴜʀʀᴇɴᴛʟʏ ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ʜᴇʀᴇ ʀᴇᴀꜱᴏɴꜱ:\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database || ꜱᴏ ᴩʟᴇᴀꜱᴇ ᴀꜱᴋ ᴀɢᴀɪɴ ɪɴ ᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀʀ ᴏʀ ᴡᴀɪᴛ ᴜɴᴛɪʟ ᴏᴛᴛ ʀᴇʟᴇᴀꜱᴇ \n\n<a href='https://t.me/dmx_chating'>ᴏᴜʀ ɢʀᴏᴜᴩ</a></b>")
+            k = await query.message.edit("<b>📍 ᴄᴜʀʀᴇɴᴛʟʏ ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ʜᴇʀᴇ ʀᴇᴀꜱᴏɴꜱ:\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database || ꜱᴏ ᴩʟᴇᴀꜱᴇ ᴀꜱᴋ ᴀɢᴀɪɴ ɪɴ ᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀʀ ᴏʀ ᴡᴀɪᴛ ᴜɴᴛɪʟ ᴏᴛᴛ ʀᴇʟᴇᴀꜱᴇ \n\n<a href='https://t.me/Cinema_Kottaaram'>ᴏᴜʀ ɢʀᴏᴜᴩ</a></b>")
             await asyncio.sleep(10)
             await k.delete()
 
@@ -753,7 +753,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("<b>I couldn't find anything in than name.\n\n<a href='https://t.me/dmx_chating'>Check in our other groups</a></b>")
+        k = await msg.reply("<b>I couldn't find anything in than name.\n\n<a href='https://t.me/Cinema_Kottaaram'>Check in our other groups</a></b>")
         await asyncio.sleep(8)
         await k.delete()
         return
