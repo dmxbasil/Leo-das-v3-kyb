@@ -670,7 +670,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/cinema_kottaaram"),
+            InlineKeyboardButton("ᴍᴀɪɴ ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Ck_Linkz"),
         ]
     )
     btn.insert(1,
